@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: night --default;
+}
+
+@utility text-gradient{
+  @apply bg-linear-to-r from-[#D6C7FF] to-[#AB8BFF] bg-clip-text text-transparent;
+}
+
+@utility container{
+  @apply lg:max-w-[1280px] md:max-w-[1024px] sm:max-w-[768px]
+}
